@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #253858;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+  font-family: sans-serif;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  background-image: url(../images/midil.png), url(../images/body_bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: right, center;
+  background-size: auto, cover;
+}
+header {
+  padding: 30px 40px;
+}
+header section.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header h1.left {
+}
+header h1.left img {
+  display: inline-block;
+}
+header nav.right {
+  display: flex;
+}
+header nav.right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav.right ul li {
+  margin-right: 20px;
+}
+header nav.right ul li a {
+  color: #fff;
+}
+#spotlight {
+  padding: 20px 20px 60px 20px;
+  text-align: center;
+}
+#spotlight section.wrapper {
+  justify-content: center;
+}
+#spotlight div.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#spotlight div.image-container img {
+  display: inline-block;
+  width: 65%;
+}
+#spotlight h1 {
+  color: #070605;
+  max-width: 73%;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0 auto;
+}
+#spotlight a.button {
+  display: inline-block;
+  padding: 13px 40px;
+  background-color: #1d1c1d;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#store {
+  border-top: 1.5px solid #3f3f3f;
+  padding: 30px 100px;
+  border-bottom: 1.5px solid #3f3f3f;
+}
+#store section.wrapper {
+}
+#store h2 {
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 45%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+#store h2 b {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ed4235;
+}
+#store p {
+  max-width: 77%;
+  margin: 0 auto;
+}
+#store section.item {
+}
+#store section.item div.container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+#store section.item div.container div.img-container {
+  width: 25%;
+}
+#store section.item div.container img {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: inline-block;
+}
+#store section.item div.container div.content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  width: 67%;
+}
+#store section.item div.container div.content h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#store section.item div.container div.content p {
+  max-width: 100%;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+#store section.item div.container div.content a.button {
+  color: #282828;
+  font-size: 15px;
+  margin-top: 25px;
+  display: inline-block;
+}
+#about {
+  padding: 55px 50px;
+  border-bottom: 1px solid #000;
+}
+
+#about section.wrapper {
+  text-align: center;
+}
+#about section.wrapper h3 {
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#about section.wrapper h3 b {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ed4235;
+}
+#about section.wrapper p {
+  font-size: 15px;
+  font-family: sans-serif;
+  max-width: 87%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 14px 50px;
+}
+#about section.wrapper a.button {
+  display: inline-block;
+  padding: 13px 40px;
+  background-color: #1d1c1d;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+#testimonial {
+  padding: 50px 100px;
+  border-bottom: 1px solid #000;
+}
+#testimonial section.wrapper {
+}
+#testimonial h2 {
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 21%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: #4d4c4c;
+}
+#testimonial p {
+  max-width: 100%;
+  font-size: 17px;
+  font-family: sans-serif;
+
+  margin: 0 auto;
+}
+#testimonial div.item {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+#testimonial div.item div.img-container {
+  max-width: 25%;
+  display: inline-block;
+}
+#testimonial div.item img {
+  width: 100%;
+  display: inline-block;
+}
+#testimonial div.item div.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  width: 100%;
+  justify-content: center;
+}
+#testimonial div.item div.content h3 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#testimonial div.item div.content p {
+  line-height: 22px;
+  font-weight: 600;
+}
+footer {
+}
+footer section.wrapper {
+}
+footer section.top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 70px 100px;
+}
+footer section.top div.left {
+  width: 50%;
+}
+footer section.top div.left h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #181818;
+  max-width: 100%;
+}
+footer section.top div.left p {
+  font-size: 14px;
+  line-height: 28px;
+  max-width: 100%;
+  margin: 35px 0px;
+}
+footer section.top div.left h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #181818;
+  max-width: 100%;
+}
+footer section.top div.right {
+  width: 40%;
+  margin-left: 0px;
+  text-align: center;
+}
+footer section.top div.right form {
+  display: flex;
+  flex-direction: column;
+}
+footer section.top div.right form input {
+  border-bottom: 2px solid #a6a4a4;
+  max-width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 12px 0px 0px 0px;
+  color: #615e5e;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+footer section.top div.right form :nth-child(2) {
+  border-bottom: 1px solid #6a6868;
+}
+footer section.top div.right form textarea {
+  border-bottom: 2px solid #a6a4a4;
+  max-width: 100%;
+  color: #615e5e;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+footer section.top div.right a.button {
+  display: inline-block;
+  padding: 13px 75px;
+  background-color: #1d1c1d;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+footer section.bottom {
+  border-top: 1px solid black;
+  padding: 30px 20px;
+  position: relative;
+}
+footer section.bottom p {
+  text-align: center;
+  color: #070707;
+}
+footer section.bottom img {
+  position: absolute;
+  left: 0px;
+  width: 8%;
+  bottom: 0px;
+}
+@media all and (max-width: 1280px) {
+  body {
+    background-size: 251px, cover;
+  }
+  #spotlight h1 {
+    max-width: 100%;
+    font-size: 41px;
+  }
+  #store h2 {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #store {
+    padding: 30px 33px;
+  }
+  #store p {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #store section.item div.container div.content p {
+    text-align: start;
+  }
+  #testimonial p {
+    text-align: center;
+  }
+  #testimonial div.item div.content p {
+    text-align: start;
+  }
+}
+@media all and (max-width: 980px) {
+  #store h2 {
+    max-width: 100%;
+    text-align: center;
+  }
+  #store section.item div.container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #store section.item div.container div.img-container {
+    width: 59%;
+  }
+  #store section.item div.container div.content {
+    text-align: center;
+    margin: 0px 0px;
+  }
+  #store section.item div.container div.content p {
+    text-align: center;
+  }
+  #testimonial h2 {
+    max-width: 90%;
+    text-align: center;
+  }
+  #testimonial {
+    padding: 32px 18px;
+  }
+  footer section.top {
+    padding: 70px 49px;
+  }
+}
+@media all and (max-width: 768px) {
+  #spotlight h1 {
+    font-size: 40px;
+    font-size: 32px;
+  }
+  #about {
+    padding: 0px 0px;
+  }
+  #testimonial div.item {
+    flex-direction: column;
+    align-items: center;
+  }
+  #testimonial div.item div.img-container {
+    max-width: 44%;
+  }
+  #testimonial div.item div.content {
+    text-align: center;
+    margin: 0px 0px;
+  }
+  #testimonial div.item div.content p {
+    text-align: center;
+  }
+  footer section.top div.left h3 {
+    font-size: 21px;
+  }
+  footer section.bottom p {
+    font-size: 15px;
+  }
+  footer section.top div.left p {
+    margin: 6px 0px;
+  }
+  footer section.top div.left h2 {
+    font-size: 25px;
+  }
+}
+@media all and (max-width: 640px) {
+  body {
+    background-size: 0px, cover;
+  }
+  header nav.right ul li a {
+    color: #070605;
+  }
+  #store h2 {
+    font-size: 30px;
+  }
+  #store h2 b {
+    font-size: 30px;
+  }
+  #about {
+    padding: 25px 0px;
+  }
+  #testimonial h2 {
+    font-size: 32px;
+  }
+  footer section.top {
+    flex-direction: column;
+  }
+  footer section.top div.left {
+    width: 100%;
+  }
+  footer section.top div.right {
+    width: 100%;
+  }
+  footer section.top div.left p {
+    text-align: center;
+  }
+  footer section.top div.left {
+    text-align: center;
+  }
+  footer section.top div.left p {
+    margin: 23px 0px;
+  }
+  footer section.bottom p {
+    font-size: 12px;
+  }
+  footer section.bottom {
+    padding: 19px 20px;
+  }
+}
+@media all and (max-width: 480px) {
+  header nav.right ul {
+    display: none;
+  }
+  header section.wrapper {
+    justify-content: center;
+  }
+  #spotlight h1 {
+    font-size: 31px;
+  }
+  #spotlight a.button {
+    padding: 10px 23px;
+  }
+  #store section.item div.container div.content p {
+    font-size: 15px;
+  }
+  #store section.item div.container div.content h1 {
+    font-size: 23px;
+  }
+  #about section.wrapper h3 {
+    font-size: 26px;
+  }
+  #about section.wrapper h3 b {
+    font-size: 26px;
+  }
+  #about section.wrapper a.button {
+    padding: 9px 19px;
+  }
+  #testimonial p {
+    font-size: 14px;
+  }
+  footer section.bottom p {
+    font-size: 12px;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  footer section.bottom {
+    padding: 1px 20px;
+  }
+}
+@media all and (max-width: 360px) {
+  #spotlight h1 {
+    font-size: 25px;
+  }
+  #spotlight a.button {
+    padding: 8px 14px;
+  }
+  #store h2 {
+    font-size: 22px;
+  }
+  #store h2 b {
+    font-size: 22px;
+  }
+  #store p {
+    font-size: 14px;
+  }
+  #about section.wrapper a.button {
+    padding: 9px 14px;
+  }
+  #testimonial h2 {
+    font-size: 26px;
+  }
+  footer section.top div.right a.button {
+    padding: 9px 41px;
+  }
+}
